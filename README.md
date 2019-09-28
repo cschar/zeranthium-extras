@@ -3,6 +3,11 @@
 Assets to show different possibilities with the Powermode Zeranthium  plugin
 
 
+# Instructions:
+1. Clone this repo
+2. Inside Zeranthium Settings, click "load pack"
+3. Select a manifest.json in one of the pack folders
+
 
 # Tutorial:
 
@@ -14,7 +19,8 @@ TODO: use free vj loops,
 - 
 load into DROSTE config
 
+Cut sounds with blender
 
-
-//extract audio from video
-ffmpeg -i input-video.mp4 output-audio.mp3
+- plant Theme
+- chicken Theme
+- Programming Language X Icon Theme (Python/Elixir/Go etc..) 

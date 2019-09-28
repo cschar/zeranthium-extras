@@ -1,5 +1,5 @@
 {
-  "configsToLoad": ["SOUND", "LIZARD"],
+  "configsToLoad": ["SOUND", "LIZARD", "DROSTE","MANDALA"],
   "configSettings": {
     "SOUND": {
       "tableData": [
@@ -13,7 +13,18 @@
       "tableData": [
         {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1, "val1":2,"scale":0.4,"enabled":true,"speedRate":3},
         {"customPath":"./LIZARD/chicken1","val2":1, "alpha":1, "val1":2,"scale":0.6,"enabled":true,"speedRate":3},
-        {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1,"val1":10,"scale":0.2,"enabled":true,"speedRate":3}
+        {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1, "val1":10,"scale":0.2,"enabled":true,"speedRate":3}
+      ]
+    },
+    "DROSTE": {
+      "tableData": [
+        {"customPath":"./DROSTE/chicken-avatar", "alpha":1, "offset":20,"scale":1.0,
+          "enabled":true,"speedRate":2, "isCyclic": true}
+      ]
+    },
+    "MANDALA": {
+      "tableData": [
+        {"customPath":"./MANDALA/chicken-crest", "alpha":1, "offset":20,"scale":1.0, "enabled":true,"speedRate":2, "isCyclic": true}
       ]
     }
   }
