@@ -1,0 +1,20 @@
+{
+  "configsToLoad": ["SOUND", "LIZARD"],
+  "configSettings": {
+    "SOUND": {
+      "tableData": [
+        {"weight": 20, "customPath": "./SOUND/cluck1.mp3"},
+        {"weight": 20, "customPath": "./SOUND/cluck2.mp3"},
+        {"weight": 20, "customPath": "./SOUND/cluck3.mp3"},
+        {"weight": 20, "customPath": "./SOUND/cluck4.mp3"}
+      ]
+    },
+    "LIZARD": {
+      "tableData": [
+        {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1, "val1":2,"scale":0.4,"enabled":true,"speedRate":3},
+        {"customPath":"./LIZARD/chicken1","val2":1, "alpha":1, "val1":2,"scale":0.6,"enabled":true,"speedRate":3},
+        {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1,"val1":10,"scale":0.2,"enabled":true,"speedRate":3}
+      ]
+    }
+  }
+}
