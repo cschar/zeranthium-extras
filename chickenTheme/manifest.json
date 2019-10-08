@@ -1,5 +1,5 @@
 {
-  "configsToLoad": ["SOUND", "LIZARD", "DROSTE","MANDALA"],
+  "configsToLoad": ["SOUND", "LIZARD","MANDALA", "LOCKED_LAYER", "TAP_ANIM"],
   "configSettings": {
     "SOUND": {
       "tableData": [
@@ -16,15 +16,28 @@
         {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1, "val1":10,"scale":0.2,"enabled":true,"speedRate":3}
       ]
     },
+    "TAP_ANIM": {
+      "tableData": [
+        {"customPath":"./TAP_ANIM/chicken-ground-peck3", "alpha":1, "yoffset":15,"xoffset":-30,"scale":0.8,
+          "enabled":true,"speedRate":4, "isCyclic": true}
+      ]
+    },
     "DROSTE": {
       "tableData": [
         {"customPath":"./DROSTE/chicken-avatar", "alpha":1, "offset":20,"scale":1.0,
           "enabled":true,"speedRate":2, "isCyclic": true}
       ]
     },
+    "LOCKED_LAYER": {
+      "tableData": [
+        {"customPath":"./DROSTE/chicken-avatar", "alpha":1, "offset":20,"scale":1.0,
+          "val2": 3,
+          "enabled":true,"speedRate":2, "isCyclic": true}
+      ]
+    },
     "MANDALA": {
       "tableData": [
-        {"customPath":"./MANDALA/chicken-crest", "alpha":1, "offset":20,"scale":1.0, "enabled":true,"speedRate":2, "isCyclic": true}
+        {"customPath":"./MANDALA/chicken-crest2", "alpha":1, "offset":20,"scale":1.0, "enabled":true,"speedRate":2, "isCyclic": true}
       ]
     }
   }
