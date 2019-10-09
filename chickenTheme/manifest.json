@@ -1,5 +1,5 @@
 {
-  "configsToLoad": ["SOUND", "LIZARD","MANDALA", "LOCKED_LAYER", "TAP_ANIM"],
+  "configsToLoad": ["SOUND", "LIZARD","MULTI_LAYER", "LOCKED_LAYER", "TAP_ANIM"],
   "configSettings": {
     "SOUND": {
       "tableData": [
@@ -35,9 +35,9 @@
           "enabled":true,"speedRate":2, "isCyclic": true}
       ]
     },
-    "MANDALA": {
+    "MULTI_LAYER": {
       "tableData": [
-        {"customPath":"./MANDALA/chicken-crest2", "alpha":1, "offset":20,"scale":1.0, "enabled":true,"speedRate":2, "isCyclic": true}
+        {"customPath":"./MULTI_LAYER/chicken-crest2", "alpha":1, "offset":20,"scale":1.0, "enabled":true,"speedRate":2, "isCyclic": true}
       ]
     }
   }
