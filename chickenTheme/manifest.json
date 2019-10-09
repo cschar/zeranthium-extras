@@ -37,7 +37,7 @@
     },
     "MULTI_LAYER": {
       "tableData": [
-        {"customPath":"./MULTI_LAYER/chicken-crest2", "alpha":1, "offset":20,"scale":1.0, "enabled":true,"speedRate":2, "isCyclic": true}
+        {"customPath":"./MULTI_LAYER/chicken-crest2", "alpha":1, "offset":20,"scale":1.0, "enabled":false,"speedRate":2, "isCyclic": true}
       ]
     }
   }
