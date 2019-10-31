@@ -9,3 +9,5 @@ TODO:
 - locked to corner chicken instead of DROSTE
 - Chicken that pecks ground, animates as you type
 ```
+
+<img src="https://user-images.githubusercontent.com/296551/67952758-2c7c0d80-fbc4-11e9-8d77-27fdae839c4c.gif" >
