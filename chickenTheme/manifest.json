@@ -11,20 +11,23 @@
     },
     "LIZARD": {
       "tableData": [
-        {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1, "val1":2,"scale":0.4,"enabled":true,"speedRate":3},
-        {"customPath":"./LIZARD/chicken1","val2":1, "alpha":1, "val1":2,"scale":0.6,"enabled":true,"speedRate":3},
-        {"customPath":"./LIZARD/chicken2","val2":1, "alpha":1, "val1":10,"scale":0.2,"enabled":true,"speedRate":3}
+        {"customPath":"./LIZARD/chicken2", "alpha":1, "val1":2,"scale":0.4,"enabled":true,"speedRate":3},
+        {"customPath":"./LIZARD/chicken1", "alpha":1, "val1":2,"scale":0.6,"enabled":true,"speedRate":3},
+        {"customPath":"./LIZARD/chicken2", "alpha":1, "val1":10,"scale":0.2,"enabled":true,"speedRate":3}
       ]
     },
     "TAP_ANIM": {
       "tableData": [
-        {"customPath":"./TAP_ANIM/chicken-ground-peck3", "alpha":1, "yoffset":15,"xoffset":-30,"scale":0.8,
+        {"customPath":"./TAP_ANIM/chicken-ground-peck3", "alpha":1,
+           "val1":15,
+           "val2":-30,
+           "scale":0.8,
           "enabled":true,"speedRate":4, "isCyclic": true}
       ]
     },
     "DROSTE": {
       "tableData": [
-        {"customPath":"./DROSTE/chicken-avatar", "alpha":1, "offset":20,"scale":1.0,
+        {"customPath":"./DROSTE/chicken-avatar", "alpha":1, "val1":20,"scale":1.0,
           "enabled":true,"speedRate":2, "isCyclic": true}
       ]
     },
@@ -37,7 +40,7 @@
     },
     "MULTI_LAYER": {
       "tableData": [
-        {"customPath":"./MULTI_LAYER/chicken-crest2", "alpha":1, "offset":20,"scale":1.0, "enabled":false,"speedRate":2, "isCyclic": true}
+        {"customPath":"./MULTI_LAYER/chicken-crest2", "alpha":1,"scale":1.0, "enabled":false,"speedRate":2, "isCyclic": true}
       ]
     }
   }

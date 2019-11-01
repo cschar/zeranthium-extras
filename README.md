@@ -9,18 +9,7 @@ Assets to show different possibilities with the Powermode Zeranthium  plugin
 3. Select a manifest.json in one of the pack folders
 
 
-# Tutorial:
+# TODO:
 
-TODO: use free vj loops,
-- download loops
-- Download blender
-- screen shots to show how to mask area of image
-- export images
-- 
-load into DROSTE config
-
-Cut sounds with blender
-
-- plant Theme
-- chicken Theme
+Tutorial:
 - Programming Language X Icon Theme (Python/Elixir/Go etc..) 

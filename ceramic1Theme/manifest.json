@@ -1,0 +1,54 @@
+{
+  "configsToLoad": ["LINKER", "MULTI_LAYER", "LOCKED_LAYER"],
+  "configSettings": {
+    "LINKER":{
+      "distanceToCenter": 290,
+      "tableData":[
+        {
+          "customPath": "./linker1/",
+          "val2": 5,
+          "isCyclic": false,
+          "alpha": 1,
+          "val1": 1,
+          "scale": 0.3,
+          "enabled": true,
+          "speedRate": 2
+        },
+        {
+          "customPath": "./linker2",
+          "val2": 6,
+          "isCyclic": false,
+          "alpha": 1,
+          "val1": 10,
+          "scale": 0.3,
+          "enabled": false,
+          "speedRate": 2
+        },
+        {
+          "customPath": "./linker3",
+          "val2": 2,
+          "isCyclic": false,
+          "alpha": 1,
+          "val1": 8,
+          "scale": 0.2,
+          "enabled": false,
+          "speedRate": 2
+        }
+      ]
+    },
+    "MULTI_LAYER": {
+      "tableData": [
+        {"customPath":"./multilayer1", "alpha":1, "scale":0.7, "enabled":true,"speedRate":2, "isCyclic": true},
+        {"customPath":"./multilayer2", "alpha":1, "scale":1.5, "enabled":true,"speedRate":2, "isCyclic": true}
+      ]
+    },
+    "LOCKED_LAYER": {
+      "tableData": [
+        {"customPath":"./lockedlayer1",
+          "alpha":1, "offset":20,"scale":1.0,
+          "val2": 0,
+          "enabled":true,"speedRate":3, "isCyclic": true}
+      ]
+    }
+  }
+}
