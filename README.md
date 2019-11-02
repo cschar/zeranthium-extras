@@ -2,6 +2,7 @@
 
 Assets to show different possibilities with the Powermode Zeranthium  plugin
 
+For more info see <a href="https://cschar.github.io/power-mode-zeranthium/"> Zeranthium Docs </a>
 
 # Instructions:
 1. Clone this repo
