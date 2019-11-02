@@ -38,7 +38,7 @@
     },
     "MULTI_LAYER": {
       "tableData": [
-        {"customPath":"./multilayer1", "alpha":1, "scale":0.7, "enabled":true,"speedRate":2, "isCyclic": true},
+        {"customPath":"./multilayer1", "alpha":1, "scale":0.7, "enabled":false,"speedRate":2, "isCyclic": true},
         {"customPath":"./multilayer2", "alpha":1, "scale":1.5, "enabled":true,"speedRate":2, "isCyclic": true}
       ]
     },
