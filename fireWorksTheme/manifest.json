@@ -2,6 +2,7 @@
   "configsToLoad": ["LANTERN"],
   "configSettings": {
     "LANTERN":{
+        "maxLinks": 100,
         "tracerEnabled": false,
         "isCyclicEnabled": false,
         "tableData":[
