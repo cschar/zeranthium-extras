@@ -1,0 +1,16 @@
+{
+    "configsToLoad": ["LOCKED_LAYER"],
+    "configSettings": {
+      "LOCKED_LAYER": {
+        "tableData": [
+          {"customPath":"./flameBorder800",
+            "enabled":true,
+            "alpha":1,
+            "speedRate":3, 
+            "val2": 0,    
+            "isCyclic": true
+          }
+        ]
+      }
+    }
+  }

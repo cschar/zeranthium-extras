@@ -1,0 +1,40 @@
+{
+  "configsToLoad": ["LANTERN"],
+  "configSettings": {
+    "LANTERN":{
+        "tracerEnabled": true,
+        "tableData":[
+          {
+            "customPath": "./ball3",
+            "val2": 58,
+            "isCyclic": false,
+            "alpha": 1,
+            "val1": 2,
+            "scale": 0.3,
+            "enabled": true,
+            "speedRate": 4
+          },
+          {
+            "customPath": "./ball3",
+            "val2": 1,
+            "isCyclic": true,
+            "alpha": 0.6,
+            "val1": 2,
+            "scale": 0.1,
+            "enabled": true,
+            "speedRate": 6
+          },
+          {
+            "customPath": "./ball3",
+            "val2": 22,
+            "isCyclic": false,
+            "alpha": 1,
+            "val1": 10,
+            "scale": 0.4,
+            "enabled": true,
+            "speedRate": 7
+          }
+        ]
+      }    
+  }
+}
