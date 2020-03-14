@@ -2,7 +2,8 @@
   "configsToLoad": ["LANTERN"],
   "configSettings": {
     "LANTERN":{
-        "tracerEnabled": true,
+        "tracerEnabled": false,
+        "isCyclicEnabled": false,
         "tableData":[
           {
             "customPath": "./ball3",
@@ -30,7 +31,7 @@
             "isCyclic": false,
             "alpha": 1,
             "val1": 10,
-            "scale": 0.4,
+            "scale": 0.2,
             "enabled": true,
             "speedRate": 7
           }
