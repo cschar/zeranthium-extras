@@ -1,27 +1,93 @@
 {
-  "configsToLoad": ["MULTI_LAYER", "LOCKED_LAYER", "LIZARD"],
-  "configSettings": {
-    "MULTI_LAYER": {
-      "moveWithCaretEnabled": true,
-      "moveSpeed": 0.1,
-      "tableData": [
-        {"customPath":"./multilayer1", "alpha":1,"scale":1.5, "enabled":true,"speedRate":2, "isCyclic": true}
-      ]
-    },
-    "LIZARD": {
-      "tableData": [
-        {"customPath":"./lizard","val2":1, "alpha":1, "val1":2,"scale":0.4,"enabled":true,"speedRate":3},
-        {"customPath":"./lizard","val2":1, "alpha":1, "val1":2,"scale":0.6,"enabled":true,"speedRate":3},
-        {"customPath":"./lizard","val2":1, "alpha":1, "val1":10,"scale":0.2,"enabled":true,"speedRate":3}
-      ]
-    },
-    "LOCKED_LAYER": {
-      "tableData": [
-        {"customPath":"./lockedlayer1",
-          "alpha":1,"scale":1.0,
-          "val2": 0,
-          "enabled":true,"speedRate":3, "isCyclic": true}
-      ]
+    "configsToLoad": [
+        "LINKER",
+        "MULTI_LAYER",
+        "LOCKED_LAYER",
+        "LIZARD"
+    ],
+    "configSettings": {
+        "LINKER": {
+            "distanceToCenter": 240,
+            "tableData": [
+                {
+                    "customPath": "./linker2/",
+                    "val2": 5,
+                    "isCyclic": false,
+                    "alpha": 1,
+                    "val1": 10,
+                    "scale": 0.3,
+                    "enabled": true,
+                    "speedRate": 2
+                },
+                {
+                    "customPath": "./linker3/",
+                    "val2": 5,
+                    "isCyclic": false,
+                    "alpha": 1,
+                    "val1": 1,
+                    "scale": 0.3,
+                    "enabled": true,
+                    "speedRate": 3
+                }
+            ]
+        },
+        "MULTI_LAYER": {
+            "moveWithCaretEnabled": true,
+            "moveSpeed": 0.1,
+            "tableData": [
+                {
+                    "customPath": "./multilayer1",
+                    "alpha": 1,
+                    "scale": 1.5,
+                    "enabled": true,
+                    "speedRate": 2,
+                    "isCyclic": true
+                }
+            ]
+        },
+        "LIZARD": {
+            "tableData": [
+                {
+                    "customPath": "./lizard",
+                    "val2": 1,
+                    "alpha": 1,
+                    "val1": 2,
+                    "scale": 0.4,
+                    "enabled": true,
+                    "speedRate": 3
+                },
+                {
+                    "customPath": "./lizard",
+                    "val2": 1,
+                    "alpha": 1,
+                    "val1": 2,
+                    "scale": 0.6,
+                    "enabled": true,
+                    "speedRate": 3
+                },
+                {
+                    "customPath": "./lizard",
+                    "val2": 1,
+                    "alpha": 1,
+                    "val1": 10,
+                    "scale": 0.2,
+                    "enabled": true,
+                    "speedRate": 3
+                }
+            ]
+        },
+        "LOCKED_LAYER": {
+            "tableData": [
+                {
+                    "customPath": "./lockedlayer1",
+                    "alpha": 1,
+                    "scale": 1.0,
+                    "val2": 0,
+                    "enabled": true,
+                    "speedRate": 3,
+                    "isCyclic": true
+                }
+            ]
+        }
     }
-  }
 }
